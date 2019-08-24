@@ -216,6 +216,23 @@ input[type=submit] {
   border: 0 none;
 }
 @media only screen and (max-width: 980px) {
+  #logo {
+    margin-left: 25px;
+  }
+  .main-section {
+    margin-left: 25px;
+    width: 70%;
+  }
+  .work {
+    width: 46.5%;
+  }
+  nav {
+    margin-right: 20px;
+  }
+  #contact-form ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   nav {
