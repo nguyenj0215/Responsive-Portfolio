@@ -218,6 +218,20 @@ input[type=submit] {
 @media only screen and (max-width: 980px) {
 }
 @media only screen and (max-width: 768px) {
+  nav {
+    margin-right: 20px;
+  }
+  .auth-image {
+    width: 50%;
+    height: auto;
+  }
+  #contact-form ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+  .work {
+   width: 47%;
+  }
 }
 @media only screen and (max-width: 640px) {
   header {
@@ -246,5 +260,9 @@ input[type=submit] {
   #contact-form ul {
     list-style-type: none;
     padding-inline-start: 0;
+  }
+  .work {
+    width: 100%;
+    height: auto;
   }
 }
