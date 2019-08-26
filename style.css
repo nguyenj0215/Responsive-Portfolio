@@ -216,6 +216,9 @@ input[type=submit] {
   border: 0 none;
 }
 @media only screen and (max-width: 980px) {
+  body {
+    margin: 0 auto;
+  }
   #logo {
     margin-left: 25px;
   }
@@ -236,7 +239,7 @@ input[type=submit] {
 }
 @media only screen and (max-width: 768px) {
   nav {
-    margin-right: 20px;
+    margin-right: 5%;
   }
   .auth-image {
     width: 50%;
@@ -249,11 +252,17 @@ input[type=submit] {
   .work {
    width: 47%;
   }
+  .main-section {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0;
+  }
+  .work:nth-child(even) {
+    margin-right: 6%;
+  }
 }
 @media only screen and (max-width: 640px) {
-  body {
-    margin: 0 auto;
-  }
   header {
     position: static;
   }
