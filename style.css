@@ -251,19 +251,21 @@ input[type=submit] {
   }
 }
 @media only screen and (max-width: 640px) {
+  body {
+    margin: 0 auto;
+  }
   header {
     position: static;
   }
   #logo {
     width: 100%;
+    margin-left: 0;
   }
-  .container {
-    max-width: 910px;
-  }
+
   .auth-image {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
   }
   nav {
     float: none;
@@ -271,8 +273,8 @@ input[type=submit] {
     text-align: center;
   }
   nav a {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
   }
   #contact-form ul {
     list-style-type: none;
@@ -282,4 +284,16 @@ input[type=submit] {
     width: 100%;
     height: auto;
   }
+  .main-section {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 0;
+  }
+  input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+}
 }
