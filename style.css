@@ -220,21 +220,25 @@ input[type=submit] {
     margin: 0 auto;
   }
   #logo {
-    margin-left: 25px;
+    margin-left: 5%;
   }
   .main-section {
-    margin-left: 25px;
-    width: 70%;
+    margin-left: 5%;
+    width: 60%;
+    margin-right: 5%;
   }
   .work {
-    width: 46.5%;
+    width: 47%;
   }
   nav {
-    margin-right: 20px;
+    margin-right: 5%;
   }
   #contact-form ul {
     list-style-type: none;
     padding-inline-start: 0;
+  }
+  .work:nth-child(even) {
+    margin-right: 6%;
   }
 }
 @media only screen and (max-width: 768px) {
